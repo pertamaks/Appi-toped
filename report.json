@@ -1,0 +1,165 @@
+[
+  {
+    "uri": "features/buying.feature",
+    "id": "user-allowed-to-buy-things",
+    "keyword": "Feature",
+    "name": "User allowed to buy things",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@hedon",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "User reach the home",
+        "description": "",
+        "line": 4,
+        "type": "background",
+        "before": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7364021634
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user reach home screen",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/home.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2145435646
+            }
+          }
+        ]
+      },
+      {
+        "id": "user-allowed-to-buy-things;user-going-to-open-st-toms-official-store",
+        "keyword": "Scenario",
+        "name": "User going to open St toms official store",
+        "description": "",
+        "line": 23,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@hedon",
+            "line": 1
+          },
+          {
+            "name": "@wip",
+            "line": 22
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user tap the \"Official Store\" icon",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/buying.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 784748432
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user reach the \"Brand Populer\" menu",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/buying.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7902852098
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user select the 2nd \"Lihat Semua\" text",
+            "line": 26,
+            "match": {
+              "location": "features/step_definitions/buying.rb:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3242609601
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user reach the \"All Brands\" menu",
+            "line": 27,
+            "match": {
+              "location": "features/step_definitions/buying.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2310734335
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user swipe left the top to the \"Electronic\"",
+            "line": 28,
+            "match": {
+              "location": "features/step_definitions/buying.rb:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7843697941
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user swipe down to find \"ST-Toms Official\"",
+            "line": 29,
+            "match": {
+              "location": "features/step_definitions/buying.rb:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22850717933
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "user reach the \"ST-Toms Official\" menu",
+            "line": 30,
+            "match": {
+              "location": "features/step_definitions/buying.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2060511184
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3772573700
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

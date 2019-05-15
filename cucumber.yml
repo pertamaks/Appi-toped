@@ -1,0 +1,2 @@
+wip: --format pretty -t @wip --format html --out report.html
+hedon: --format pretty -t @hedon --format html --out report.html

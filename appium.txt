@@ -1,0 +1,8 @@
+[caps]
+deviceName = "Lalala"
+platformName = "android"
+appPackage = "com.tokopedia.tkpd"
+appActivity = "com.tokopedia.navigation.presentation.activity.MainParentActivity"
+newCommandTimeout = "3600"
+noReset = true
+avd = "training"
